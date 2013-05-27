@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Twinterest</string>
+    <string name="title_tweet_detail">Tweet</string>
+    
+    <string name="media">Media</string>
+
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_add_interest">Add interest</string>
+    
+    <string name="empty_no_tweets">No tweets. Try refreshing.</string>
+    
+    <string name="toast_refresh_failed">Refresh failed.</string>
+    <string name="toast_invalid_response">Invalid API response.</string>
+    <string name="toast_no_interest">Set an interest first!</string>
+    <string name="toast_interest_updated">Interest updated.</string>
+    
+    <string name="dialog_title">Add interest</string>
+    
+    <string name="notification_ticker">New tweets of interest</string>
+    <string name="notification_content_title">You have new tweets of interest!</string>
+    <string name="notification_content_text">Touch to open Twinterest</string>
+</resources>

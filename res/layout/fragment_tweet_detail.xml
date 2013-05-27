@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tweet_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp" >
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/from_user_name"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dip"
+        android:layout_toRightOf="@id/profile_image" />
+
+    <TextView
+        android:id="@+id/from_user"
+        style="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/from_user_name"
+        android:layout_marginLeft="8dip"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/profile_image" />
+
+    <TextView
+        android:id="@+id/text"
+        style="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/from_user"
+        android:layout_marginLeft="8dip"
+        android:layout_toRightOf="@id/profile_image"
+        android:autoLink="web" />
+
+    <TextView
+        android:id="@+id/media_title"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:text="@string/media"
+        android:textAllCaps="true" />
+
+    <LinearLayout
+        android:id="@+id/media"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/media_title"
+        android:orientation="vertical" />
+
+</RelativeLayout>
